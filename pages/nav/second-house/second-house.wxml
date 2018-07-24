@@ -1,0 +1,126 @@
+<!-- 筛选 -->
+<view class='selectBox'>
+
+ <view wx:for="{{tab}}" wx:key="" data-index="{{index}}" class='aaa {{!tabBloo[index]?"active":""}}' bindtap='addrIn'>
+ <text class='title'>{{item}}</text> <image src='{{!tabBloo[index]?iconOn:icon}}'></image></view>
+
+</view>
+<!-- 蒙层 -->
+<view class='mark hide {{isShow?"show":"hide"}}'>
+  <!-- 下拉 -->
+  <view class='selectBody'>
+      <view class='selectAddr' style='width:{{selectAutoWidth}}px' hidden='{{tabBloo[0]}}'>
+        <text class="{{areaId==0?'active':''}}" data-id="0" data-index="0" data-txt="户型" bindtap="tapFilter">不限</text>
+        <text data-id="1" data-index="0" data-txt="全开封1" bindtap="tapFilter">全开封1</text>
+        <text data-id="2" data-index="0" data-txt="全开封2" bindtap="tapFilter">全开封2</text>
+        <text data-id="3" data-index="0" data-txt="全开封3" bindtap="tapFilter">全开封3</text> 
+      </view>
+  
+    <view hidden='{{tabBloo[1]}}' class='selectAddr selectPrice' style='width:{{selectAutoWidth}}px;left:{{selectAutoWidth}}px'>
+      <text>1</text>
+      <text>全开封1</text>
+      <text>全开封2</text>
+      <text>全开封3</text>
+    </view>
+
+    <view hidden='{{tabBloo[2]}}' class='selectAddr selectHx' style='width:{{selectAutoWidth}}px;left:none;right:0'>
+      <text>2</text>
+      <text>全开封1</text>
+      <text>全开封2</text>
+      <text>全开封3</text>
+    </view>
+
+  </view>
+</view>
+<!-- 列表 -->
+<view class='hotBox'>
+    <view class='hotImg'>
+      <image src='../../../image/case.png'></image>
+    </view>
+    <view class='hotBody'>
+      <view class='hotTitle'>
+        碧桂园
+      </view>
+      <view class='caseSort'>
+        10室5厅 | 600m2 | 碧水龙庭
+      </view>
+      <view class='hotAddr'>
+        龙亭区
+      </view>
+      <view class='hanldPrice'>
+       1000<text class='hanFont'>万</text> 
+      </view>
+     
+    </view>
+</view>
+<view class='hotBox'>
+    <view class='hotImg'>
+      <image src='../../../image/case.png'></image>
+    </view>
+    <view class='hotBody'>
+      <view class='hotTitle'>
+        碧桂园
+      </view>
+      <view class='caseSort'>
+        10室5厅 | 600m2 | 碧水龙庭
+      </view>
+      <view class='hotAddr'>
+        龙亭区
+      </view>
+      <view class='hanldPrice'>
+       1000<text class='hanFont'>万</text> 
+      </view>
+     
+    </view>
+</view>
+<view class='hotBox'>
+    <view class='hotImg'>
+      <image src='../../../image/case.png'></image>
+    </view>
+    <view class='hotBody'>
+      <view class='hotTitle'>
+        碧桂园
+      </view>
+      <view class='caseSort'>
+        10室5厅 | 600m2 | 碧水龙庭
+      </view>
+      <view class='hotAddr'>
+        龙亭区
+      </view>
+      <view class='hanldPrice'>
+       1000<text class='hanFont'>万</text> 
+      </view>
+     
+    </view>
+</view>
+<view class='hotBox'>
+    <view class='hotImg'>
+      <image src='../../../image/case.png'></image>
+    </view>
+    <view class='hotBody'>
+      <view class='hotTitle'>
+        碧桂园
+      </view>
+      <view class='caseSort'>
+        10室5厅 | 600m2 | 碧水龙庭
+      </view>
+      <view class='hotAddr'>
+        龙亭区
+      </view>
+      <view class='hanldPrice'>
+       1000<text class='hanFont'>万</text> 
+      </view>
+     
+    </view>
+</view>
+
+  <!--加载更多按钮-->
+    <view wx:if="{{hasMore}}">
+        <button type="warn" plain="true" disabled="{{disabled}}" bindtap="getMore" class="">{{moreTxt}}</button>
+    </view>
+    <!--无数据提示-->
+    <view class="null tc" hidden="{{dataNull}}">
+        <icon type="clear" size="100" color="#ccc"/>
+        <view class="txt1">当前筛选无结果</view>
+        <view class="txt2">您可以尝试筛选其他分类看看</view>
+    </view>

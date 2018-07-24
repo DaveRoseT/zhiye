@@ -1,0 +1,37 @@
+/* pages/yu/yu.wxss */
+@import "../single/single.wxss";
+.singleContent input{
+  display: inline-block;
+  vertical-align: middle;
+    font-size: 24rpx;
+  color:#999;
+}
+picker{
+  display: inline-block;
+  line-height: 0;
+  font-size: 24rpx;
+  color:#999;
+}
+textarea{
+  display: inline-block;
+  width: 550rpx;
+  vertical-align: middle;
+  font-size: 24rpx;
+  color:#999;
+  line-height: 1.2;
+}
+.subBtn{
+  width: 211rpx;
+  height: 71rpx;
+  margin: 0 auto;
+  background-color: #60c9f9;
+  border: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 15rpx;
+  font-size: 34rpx;
+  margin-top: 30rpx;
+}

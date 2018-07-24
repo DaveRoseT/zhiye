@@ -1,0 +1,41 @@
+<!--pages/my/my.wxml-->
+<view class='my-bg' style='height:{{height}}px'>
+  <image class='bgImg' src='../../image/bg.jpg'></image>
+  <view class='my-img'>
+    <image src='../../image/bg.jpg'></image>
+    <view>魏大勋</view>
+  </view>
+</view>
+<!-- 收藏等列表 -->
+<view class='my-list'>
+<navigator url='../second-page/my-collect/my-collect'>
+  <view class='my-item'>
+    <image class='my-tb' src='../../image/tab01.png'></image> 
+    我的收藏
+    <image class='lef' src='../../image/lef.png'></image>
+  </view>
+</navigator>
+  <navigator url='../second-page/my-yu/my-yu'>
+    <view class='my-item borno'>
+        <image class='my-tb' src='../../image/tab02.png'></image>
+        我的预约
+        <image class='lef' src='../../image/lef.png'></image>
+    </view>
+  </navigator>
+  <view class='hr'></view>
+  
+  <navigator url='../second-page/zp/zp'>
+    <view class='my-item'>
+      <image class='my-tb' src='../../image/tab03.png'></image>
+      招兵买马
+      <image class='lef' src='../../image/lef.png'></image>
+    </view>
+  </navigator>
+  <navigator url='../second-page/single/single'>
+    <view class='my-item borno'>
+      <image class='my-tb' src='../../image/tab04.png'></image>
+      关于我们
+      <image class='lef' src='../../image/lef.png'></image>
+    </view>
+  </navigator>
+</view>

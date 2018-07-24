@@ -1,0 +1,85 @@
+/* pages/search/search.wxss */
+page{
+  background: #f5f5f5;
+}
+.white{
+  background: #fff;
+  overflow: hidden;
+}
+.search-box{
+  height: 62rpx;
+  width: 670rpx;
+  margin: 0 auto;
+  background: rgba(128,212,250,.8);
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.search{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5.5rpx;
+}
+.search input{
+  height: 51rpx;
+  width: 532rpx;
+  color: #fff;
+  background: #66cbf9;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  float: left;
+}
+.search button{
+  height: 51rpx;
+  width: 93.5rpx;
+  background-color: none;
+  color: #fff;
+  border: 0;
+  font-size: 28rpx;
+  line-height: normal;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+  float: left;
+}
+.placeholder{
+  color: #fff;
+}
+.search-command{
+  padding: 0 40rpx;
+  position: relative;
+}
+.search-command::after{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  content: '';
+  -webkit-transform: scaleY(.5);
+  transform: scaleY(.5);
+  background-color: #efefef;
+}
+.command-title{
+  font-size: 18rpx;
+  color: #999;
+  margin: 20rpx 0;
+}
+.command-tag{
+  overflow: hidden;
+}
+.command-tag text{
+  float: left;
+  padding: 0rpx 20rpx;
+  font-size: 24rpx;
+  color: #333;
+  background: #eef7ff;
+  height: 42rpx;
+  line-height: 42rpx;
+  margin-right: 15rpx;
+  margin-bottom: 20rpx;
+}

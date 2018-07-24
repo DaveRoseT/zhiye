@@ -1,0 +1,15 @@
+<!--pages/second-page/news/xq-news/xq-news.wxml-->
+<view class='xq-content'>
+  <view class='xq-title'>
+    5月份郑州市商品住宅均价每平方米8241元！（附最新买房条件）
+  </view>
+  <view class='xq-date'>
+   2018/06/29  08:16
+  </view>
+  <view class='xq-body'>
+    <image src='../../../../image/case.png'></image>
+    <view class='xq-body-font'>
+    5月份郑州市商品住宅均价每平方米8241元！（附最新买房条件）5月份郑州市商品住宅均价每平方米8241元！（附最新买房条件）5月份郑州市商品住宅均价每平方米8241元！（附最新买房条件）5月份郑州市商品住宅均价每平方米8241元！（附最新买房条件）
+    </view>
+  </view>
+</view>

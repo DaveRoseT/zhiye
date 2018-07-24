@@ -1,0 +1,55 @@
+<!--pages/nav/house-xq/house-xq.wxml-->
+<view class="swiper-box">
+  <swiper class="swiper" indicator-dots
+    autoplay interval="10000" duration="500" circular indicator-color="#999694" style='height:{{Hei}}' indicator-active-color="#1db46f">
+    <block wx:for="{{imgUrls}}" wx:key="">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"  mode="widthFix" bindload='imgH' width="100%"/>
+      </swiper-item> 
+    </block>
+  </swiper>
+</view> 
+<!-- 标题 -->
+<view class='xq-title'>
+<view class='xq-head'>{{title}}</view>
+  <view class='xq-attr'><view class='hotAttr'>在售</view></view>
+</view>
+<!-- 标签详情 -->
+<view class='xq-tag'>
+  <!-- 收藏 -->
+  <view class='xq-sc'><image src='../../../image/sc.png'></image></view>
+  <view class='xq-yu'>
+    <image src='../../../image/yu-on.png'></image>
+    <view>预约看房</view>
+  </view>
+  <view class='xq-price'>
+    <text class='xq-tag-head'>价格：</text>
+      1000<text class='hanFont'>万</text> 
+  </view>
+  <view><text class='xq-tag-head'>户型：</text>三室两厅</view>
+  <view><text class='xq-tag-head'>面积：</text>559m2</view>
+  <view><text class='xq-tag-head'>年代：</text>2002-01-01</view>
+  <view><text class='xq-tag-head'>地址：</text><text class='xq-addr'>撒开很快就会升高是根据客户将开放港口激光焊接反馈个飞机快更健康</text> </view>
+  <view><text class='xq-tag-head'>联系我们：</text><text class='red'>15937813585</text></view>
+</view>
+<!-- 详情内容 -->
+<view class='xq-content'>
+  <view class='xq-info'>
+    郑开碧桂园110㎡三房/140㎡四房/250㎡四房在售，均价12000元/㎡。项目位于四大街与晋安路交叉口西北角，总占地面积约48944㎡，总建筑面积约103590㎡，由开封碧海置业有限公司开发建设。
+  </view>
+  <view class='xq-content-title'>
+    【地段优越】
+  </view>
+  <view class='xq-info'>
+    郑开碧桂园110㎡三房/140㎡四房/250㎡四房在售，均价12000元/㎡。项目位于四大街与晋安路交叉口西北角，总占地面积约48944㎡，总建筑面积约103590㎡，    由开封碧海置业有限公司开发建设。
+  </view>
+    <view class='xq-content-title'>
+    【实力开发】
+  </view>
+    <view class='xq-content-title'>
+    【品牌物业】
+  </view>
+  <view class='xq-content-title'>
+    【配套成熟】
+  </view>
+</view>

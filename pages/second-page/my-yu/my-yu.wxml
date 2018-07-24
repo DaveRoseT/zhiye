@@ -1,0 +1,16 @@
+<!--pages/second-page/my-yu/my-yu.wxml-->
+
+<view class='singleContent' style='margin-top:20rpx;'>
+  <view class='singleBod'>
+    联系人 ： <text class=''>梁大伟</text>  
+  </view>
+  <view class='singleBod'>
+    联系电话 ： <text class=''>400-998-2165</text>  
+  </view>
+  <view class='singleBod'>
+    预约时间 ： <text class=''>2018-01-01 16：04</text>  
+  </view>
+  <view>
+    备注 ： <text class='singleAddr' style='width:550rpx;'>开封市龙亭区郑开大道第四大街开封电子商务产业园开封市龙亭区郑开大道第四大街开封电子商务产业园开封市龙亭区郑开大道第四大街开封电子商务产业园开封市龙亭区郑开大道第四大街开封电子商务产业园</text>
+  </view>
+</view>

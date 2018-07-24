@@ -1,0 +1,127 @@
+/* pages/nav/house-xq/house-xq.wxss */
+@import "../../../pages/index/index.wxss";
+@import "../../../pages/nav/second-house/second-house.wxss";
+.slide-image{ 
+  width: 100%; 
+  display: block;
+}
+.xq-title{
+  padding: 0 20rpx;
+  color: #222;
+  font-size: 28rpx;
+  line-height: 68rpx;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.xq-head{
+  width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.xq-attr{
+  display: flex;
+  align-items: center;
+}
+
+.xq-tag{
+  position: relative;
+  padding: 20rpx;
+}
+.xq-tag::before{
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  height: 1px;
+  content: '';
+  -webkit-transform: scaleY(.5);
+  transform: scaleY(.5);
+  background-color: #efefef;
+}
+.xq-tag::after{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  content: '';
+  -webkit-transform: scaleY(.5);
+  transform: scaleY(.5);
+  background-color: #efefef;
+}
+.xq-tag view{
+  font-size: 24rpx;
+  color: #222;
+  height: 35rpx;
+  line-height: 35rpx;
+  margin-top: 10rpx;
+}
+.xq-tag view.xq-price{
+  display: flex;
+  flex-wrap: wrap;
+  color: #fe5705;
+  font-size: 34rpx;
+}
+.xq-tag-head{
+  color: #666;
+  font-size: 24rpx;
+  margin-right: 5rpx;
+}
+
+.xq-price .hanFont{
+  font-size: 24rpx;
+}
+.xq-addr{
+  width: 500rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: middle;
+}
+.red{
+  color: #fe5705;
+  font-size: 24rpx;
+}
+.xq-sc{
+  position: absolute;
+  right: 20rpx;
+  top:20rpx;
+}
+.xq-sc image{
+  width: 48rpx;
+  height: 49rpx;
+}
+.xq-yu{
+  position: absolute;
+  bottom: 75rpx;
+  right: 20rpx;
+}
+.xq-yu image{
+  display: block;
+  margin: 0 auto;
+  width: 50rpx;
+  height: 50rpx;
+}
+.xq-yu view{
+  color: #157efa;
+  font-size: 20rpx;
+  text-align: center;
+  margin-top: 0;
+}
+.xq-content{
+  padding:40rpx 20rpx 20rpx 20rpx;
+}
+.xq-info{
+  color: #666;
+  font-size: 24rpx;
+  line-height: 40rpx;
+  text-indent: 48rpx;
+}
+.xq-content-title{
+  font-size: 28rpx;
+  color: #222;
+  line-height: 64rpx;
+}

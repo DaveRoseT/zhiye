@@ -1,0 +1,73 @@
+<!--index.wxml-->
+
+<!-- 搜索 -->
+
+ <view class='search' bindtap='search'>
+     <icon type='search' color='#fff' size='20'/> 三室两厅
+ </view>
+
+  <!-- 导航分类  -->
+ <view class='navSort'>
+  <view class='nav' wx:for='{{nav}}' wx:key='index'>
+     <navigator url="{{item.url}}" hover-class="navigator-hover">
+      <image src='../../{{item.navImage}}'></image>
+      <view class='navTitle'>{{item.navTitle}}</view>
+    </navigator>
+  </view>
+ </view>
+<!-- 头条 -->
+<view class='topNews'>
+  <view class='topImg'>
+    <image src='../../image/topNews.png'></image>
+  </view>
+  <view class='topBox'>
+  <swiper vertical='true' circular autoplay interval="10000" duration="500">
+      <swiper-item>
+       <navigator url="{{item.url}}" hover-class="navigator-hover">
+        <text>你哈啊生发方法是骨骼结构</text>
+       </navigator>
+         <text>你哈啊生发方法是骨骼结构你哈啊生发方法是骨骼结构你哈啊生发方法是骨骼结构你哈啊生发方法是骨骼结构</text>
+      </swiper-item>
+    <swiper-item>
+        <text>你哈啊生发方法是骨骼结构</text>
+      </swiper-item><swiper-item>
+        <text>你哈啊生发方法是骨骼结构</text>
+      </swiper-item><swiper-item>
+        <text>你哈啊生发方法是骨骼结构</text>
+      </swiper-item><swiper-item>
+        <text>你哈啊生发方法是骨骼结构</text>
+      </swiper-item>
+  </swiper>
+    
+  </view>
+  <view class='tiopTB'>
+   <image src='../../image/right.png'></image>
+  </view>
+</view>
+<!-- 热门列表 -->
+<view class='hotList'>
+  <view class='hotTop'>
+    <image src='../../image/hot.png'></image>
+  </view>
+
+  <view wx:for='{{list}}' wx:key='{{item.title}}' class='hotBox' bindtap='listGoTo' hover-class='navigator-hover' data-caseid="{{index}}">
+      <view class='hotImg'>
+        <image src='{{item.pic}}'></image>
+      </view>
+      <view class='hotBody'>
+        <view class='hotTitle'>
+          {{item.title}}
+        </view>
+        <view class='hotAddr'>
+          龙亭区 <text class='hotPrice'>2500元/m2</text>
+        </view>
+        <view class='hotSize hotAddr'>
+          面积 120-250m2
+        </view>
+        <view class='hotAttr'>
+          在售
+        </view>
+      </view>
+  </view>
+
+</view>

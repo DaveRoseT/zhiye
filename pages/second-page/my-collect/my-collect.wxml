@@ -1,0 +1,45 @@
+ <view class='hotBox'>
+  <button plain hover-class='none' class='delBtn'>删除</button>
+  <view class='hotImg'>
+    <image src='../../../image/case.png'></image>
+  </view>
+  <view class='hotBody'>
+    <view class='hotTitle'>
+      碧桂园
+    </view>
+    <view class='hotAddr'>
+      龙亭区 <text class='hotPrice'>2500元/m2</text>
+    </view>
+    <view class='hotSize hotAddr'>
+      面积 120-250m2
+    </view>
+    <view class='hotAttr'>
+      在售
+    </view>
+  </view>
+</view>
+<view class='hotBox'>
+  <button plain hover-class='none' class='delBtn'>删除</button>
+    <view class='hotImg'>
+      <image src='../../../image/case.png'></image>
+    </view>
+    <view class='hotBody'>
+      <view class='hotTitle'>
+        碧桂园
+      </view>
+      <view class='caseSort'>
+        10室5厅 | 600m2 | 碧水龙庭
+      </view>
+      <view class='hotAddr'>
+        龙亭区
+      </view>
+      <view class='hanldPrice'>
+       1000<text class='hanFont'>万</text> 
+      </view>
+    </view>
+</view>
+ <!-- 没有收藏 -->
+<view class='noItem'>
+  <image src='../../../image/k.png'></image>
+  <view>什么都没有，快去逛逛~</view>
+</view>

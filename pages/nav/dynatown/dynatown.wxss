@@ -1,0 +1,82 @@
+/* pages/nav/dynatown/dynatown.wxss */
+.town{
+display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  align-items: center
+}
+.townBox{
+  background: #fff;
+  width: 330rpx;
+  border-radius: 10rpx;
+  box-shadow: 0 0 15rpx rgba(0,0,0,.14);
+  padding: 16rpx 0 25rpx 0;
+  margin: 30rpx 0rpx 0 30rpx;
+}
+.townBox image{
+  border-radius: 100%;
+  width: 140rpx;
+  height: 140rpx;
+  display: block;
+  margin: 0 auto;
+}
+.townTitle{
+  text-align: center;
+  font-size: 28rpx;
+  color: #222;
+  line-height: 60rpx;
+}
+.townTag{
+  padding: 0 25rpx;
+  overflow: hidden
+}
+.townTag text{
+  padding: 0rpx 5rpx;
+  text-align: center;
+  border: 1rpx solid #222;
+  border-radius: 5rpx;
+  font-size: 24rpx;
+  display: inline-block;
+  margin:5rpx;
+}
+.townList{
+  color: #666;
+  font-size: 24rpx;
+  padding: 0 25rpx;
+  line-height: 50rpx;
+}
+.townList text{
+  color: #333;
+  
+}
+.townList text.twonPhone{
+  color: #fe5705; 
+}
+.ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle
+}
+.townTag text.kl{
+  border-color: #FA9A26;
+  color: #FA9A26;
+}
+.townTag text.rq{
+  border-color: #FA3D38;
+  color: #FA3D38
+}
+.townTag text.cs{
+  border-color: #D6D7D9;
+  color: #D6D7D9
+}
+.townTag text.ym{
+  border-color: #54D769;
+  color: #54D769
+}
+.townTag text.zc{
+  border-color: #60C9F9;
+  color: #60C9F9
+}

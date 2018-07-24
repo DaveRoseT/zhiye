@@ -1,0 +1,23 @@
+<!--pages/yu/yu.wxml-->
+<form bindsubmit="bindFormSubmit">
+  <view class='singleContent' style='margin-top:20rpx;'>
+    <view class='singleBod'>
+      联系人 ：  <input type='text' placeholder="请输入您的名字" />
+    </view>
+    <view class='singleBod'>
+      联系电话 ：  <input type='number' placeholder="联系电话" />
+    </view>
+    <view class='singleBod'>
+      预约时间 ：  
+     <picker mode="multiSelector" value="{{dateTime}}" bindchange="changeDateTime" bindcolumnchange="changeDateTimeColumn" range="{{dateTimeArray}}">
+    <text>
+      {{dateTimeArray[0][dateTime[0]]}}-{{dateTimeArray[1][dateTime[1]]}}-{{dateTimeArray[2][dateTime[2]]}} {{dateTimeArray[3][dateTime[3]]}}:{{dateTimeArray[4][dateTime[4]]}}
+    </text>
+  </picker>
+    </view>
+    <view>
+      备注 ：  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="请留言" />
+    </view>
+  </view>
+  <button class='subBtn' form-type="submit"> 提交 </button>
+</form>

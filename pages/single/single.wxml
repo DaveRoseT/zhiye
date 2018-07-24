@@ -1,0 +1,15 @@
+<!-- 关于我们-img -->
+<image class='singleImg' src='../../image/guanyuwomen.png'></image>
+<!-- 关于我们-title -->
+<view class='singleTitle'>
+  海潮置业有限公司
+</view>
+<!-- 关于我们-content -->
+<view class='singleContent'>
+  <view class='singleBod'>
+    联系电话： <text class='singlePhone'>400-998-2165</text>  
+  </view>
+  <view>
+    公司地址： <text class='singleAddr'>开封市龙亭区郑开大道第四大街开封电子商务产业园</text>
+  </view>
+</view>

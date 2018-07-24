@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/yu/yu",
+    "pages/nav/second-house/second-house",
+    "pages/nav/house-xq/house-xq",
+    "pages/single/single",
+    "pages/second-page/news/news",
+    "pages/search/search",
+    "pages/second-page/my-collect/my-collect",
+    "pages/second-page/my-yu/my-yu",
+    "pages/second-page/news/xq-news/xq-news",
+    "pages/second-page/zp/zp",
+    "pages/nav/dynatown/dynatown"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#60c9f9",
+    "navigationBarTitleText": "浪博置业",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#60c9f9",
+    "borderStyle": "white",
+    "backgroundColor": "#eef7ff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/yu/yu",
+        "iconPath": "image/my.png",
+        "selectedIconPath": "image/my-on.png",
+        "text": "预约"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "image/yu.png",
+        "selectedIconPath": "image/yu-on.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

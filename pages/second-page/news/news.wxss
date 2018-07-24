@@ -1,0 +1,51 @@
+/* pages/second-page/news/news.wxss */
+@import "../../../pages/index/index.wxss";
+page{
+  background: #f5f5f5
+}
+.newsBox{
+  background: #fff;
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.newsBox::after{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  content: '';
+  -webkit-transform: scaleY(.5);
+  transform: scaleY(.5);
+  background-color: #efefef;
+}
+.newsList{
+  position: relative;
+  padding: 20rpx 40rpx 20rpx 0;
+}
+.newsTitle{
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 28rpx;
+  color: #222;
+  line-height: 42rpx;
+}
+.newsDate{
+  position: absolute;
+  left: 0;
+  bottom: 20rpx;
+  color: #666;
+  font-size: 24rpx;
+}
+.newsImg{
+ 
+}
+.newsImg image{
+  width: 200rpx;
+  height: 150rpx;
+}

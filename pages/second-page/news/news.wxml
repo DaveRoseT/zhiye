@@ -1,0 +1,28 @@
+<!--pages/second-page/news/news.wxml-->
+ <view class='newsBox'>
+      <view class='newsList'>
+        <view class='newsTitle'>
+          全国首例!西安暂停企事业单位买住房
+        </view>
+         <view class='newsDate'>
+        2018/06/29  08:16
+        </view>
+      </view>
+      <view class='newsImg'>
+        <image src='../../../image/case.png'></image>
+      </view>
+  </view>
+  <view class='newsBox'>
+      <view class='newsList'>
+        <view class='newsTitle'>
+          全国首例!西安暂停企事业单位买住房
+        </view>
+         <view class='newsDate'>
+        2018/06/29  08:16
+        </view>
+      </view>
+      <view class='newsImg'>
+        <image src='../../../image/case.png'></image>
+      </view>
+  </view>
+

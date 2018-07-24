@@ -1,0 +1,153 @@
+/**index.wxss**/
+.search{
+  background: rgba(96,201,249,.8);
+  margin:10rpx 20rpx 0 20rpx;
+  height: 62rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 28rpx;
+}
+.search icon{
+  margin-right: 10rpx
+}
+.navSort{
+  display: flex;
+  justify-content: space-between;
+  margin: 30rpx 0 30rpx 0;
+}
+.nav{
+  width: 100%;
+}
+.nav image{
+  width: 100rpx;
+  height: 100rpx;
+  display: block;
+  margin: 0 auto
+}
+.nav .navTitle{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 28rpx;
+}
+.topNews{
+  padding:18rpx 0 18rpx 20rpx;
+  display: flex;
+  flex-direction: row;
+  border: 6rpx solid #fcfcfc;
+  border-left: 0;
+  border-right: 0;
+  position: relative;
+}
+.tiopTB image{
+  position: absolute;
+  right: 20rpx;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 18rpx;
+  height: 18rpx;
+}
+.topImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topImg image{
+  width: 75rpx;
+  height: 75rpx;
+  margin-right: 20rpx;
+}
+.topBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 560rpx;
+}
+.topBox text{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 28rpx;
+  color: #222;
+}
+.hotTop{
+  margin-top: 20rpx;
+}
+.hotTop image{
+  width: 151rpx;
+  height: 35rpx;
+  display: block;
+  margin: 0 auto;
+}
+.hotBox{
+  padding: 20rpx;
+overflow: hidden;
+position: relative
+}
+.hotBox:after{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  content: '';
+  -webkit-transform: scaleY(.5);
+  transform: scaleY(.5);
+  background-color: #f5f5f5;
+}
+.hotImg{
+  width: 200rpx;
+  height: 150rpx;
+  margin-right: 20rpx;
+  float: left;
+}
+.hotImg image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.hotBody{
+  float: right;
+  width: 485rpx;
+}
+.hotTitle{
+  font-size: 28rpx;
+  display: block;
+  width: 90%;
+  color: #333;
+  line-height: 40rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+.hotAddr{
+  font-size: 24rpx;
+  color: #666;
+   display: flex;
+  justify-content: space-between;
+  line-height: 35rpx;
+}
+.hotPrice{
+  color: #fe5705;
+}
+.hotAttr{
+  width: 73rpx;
+  height: 42rpx;
+  background: #eef7ff;
+  font-size: 24rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #157EFA;
+}
+.hotBox:last-child::after{
+ height: 0;
+}
+swiper{
+  height: 75rpx;
+}

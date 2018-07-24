@@ -1,0 +1,33 @@
+<!--pages/search/search.wxml-->
+<view class='white'>
+  <!-- 搜索框 -->
+    <view class='search-box'>
+      <view class='search'>
+        <form class='searchForm' bindsubmit='searchSubmitFn'>
+          <input value="{{inputVal}}" class='topInput' name='input' placeholder-class='placeholder' placeholder="三室一厅" auto-focus />
+          <button formType='submit' plain hover-class='none' class='searchBtn'>搜索</button>
+        </form>
+      </view>
+    </view>
+  <!-- 搜索推荐 -->
+  <view class='search-command'>
+    <view class='command-title'>搜索推荐</view>
+    <view class='command-tag' >
+      <text>两室一厅</text>
+      <text>碧桂园</text>
+      <text>两室一厅</text>
+      <text>碧桂园</text>
+      <text>两室一厅</text>
+      <text>碧桂园</text>
+      <text>两室一厅</text>
+      <text>碧桂园</text>
+    </view>
+  </view>
+  <view class='search-command'>
+    <view class='command-title'>搜索历史</view>
+    <view class='command-tag'>
+      <text bindtap='searchHistry' wx:for='{{searchRecord}}' data-html='{{item}}' wx:key='{{index}}'>{{item}}</text>
+    </view>
+  </view>
+</view>
+<!-- <view class='noHistoryItem' wx:if="{{searchRecord.length==0}}">你还没有搜索记录</view> -->

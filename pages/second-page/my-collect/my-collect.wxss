@@ -1,0 +1,46 @@
+/* pages/second-page/my-collect/my-collect.wxss */
+@import "../../../pages/index/index.wxss";
+@import "../../../pages/nav/second-house/second-house.wxss";
+page{
+  background: #f5f5f5;
+}
+.hotBox{
+  position: relative;
+  background: #fff;
+  display: none;
+}
+.delBtn{
+  position: absolute;
+  bottom:20rpx;
+  right: 20rpx;
+  background: linear-gradient(to right,#fc8105  ,#fe5705 );
+  color: #fff;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+  width: 84rpx;
+  height: 39rpx;
+  padding: 0;
+  line-height: normal;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button[plain]{
+  color: #fff;
+  border: 0;
+}
+.noItem{
+  padding-top: 160rpx;
+}
+.noItem image{
+  display: block;
+  width: 315rpx;
+  height: 291rpx;
+  margin: 0 auto;
+}
+.noItem view{
+  margin-top: 60rpx;
+  font-size: 28rpx;
+  color: #333;
+  text-align: center
+}

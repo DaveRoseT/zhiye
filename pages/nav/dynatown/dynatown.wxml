@@ -1,0 +1,71 @@
+<!--pages/nav/dynatown/dynatown.wxml-->
+<view class='town'>
+  <view class='townBox'>
+    <image src='../../../image/bg.jpg'></image>
+    <view class='townTitle'>哥哥</view>
+    <view class='townTag'>
+      <text>开朗</text><text>热情</text><text>成熟</text>
+      <text>幽默</text><text>真诚</text>
+    </view>
+    <view class='townList'>
+      服务人数： <text>30人</text>
+    </view>
+    <view class='townList'>
+      熟悉区域： <text class='ellipsis'>金明区金明区金明区金明区</text>
+    </view>
+    <view class='townList'>
+      欢迎咨询： <text class='twonPhone'>15937813595</text>
+    </view>
+  </view>
+  <view class='townBox'>
+    <image src='../../../image/bg.jpg'></image>
+    <view class='townTitle'>哥哥</view>
+    <view class='townTag'>
+      <text class='kl'>开朗</text><text class='rq'>热情</text><text class='cs'>成熟</text>
+      <text class='ym'>幽默</text><text class='zc'>真诚</text>
+    </view>
+    <view class='townList'>
+      服务人数： <text>30人</text>
+    </view>
+    <view class='townList'>
+      熟悉区域： <text class='ellipsis'>金明区金明区金明区金明区</text>
+    </view>
+    <view class='townList'>
+      欢迎咨询： <text class='twonPhone'>15937813595</text>
+    </view>
+  </view>
+  <view class='townBox'>
+    <image src='../../../image/bg.jpg'></image>
+    <view class='townTitle'>哥哥</view>
+    <view class='townTag'>
+      <text>开朗</text><text>热情</text><text>成熟</text>
+      <text>幽默</text><text>真诚</text>
+    </view>
+    <view class='townList'>
+      服务人数： <text>30人</text>
+    </view>
+    <view class='townList'>
+      熟悉区域： <text class='ellipsis'>金明区金明区金明区金明区</text>
+    </view>
+    <view class='townList'>
+      欢迎咨询： <text class='twonPhone'>15937813595</text>
+    </view>
+  </view>
+  <view class='townBox'>
+    <image src='../../../image/bg.jpg'></image>
+    <view class='townTitle'>哥哥</view>
+    <view class='townTag'>
+      <text>开朗</text><text>热情</text><text>成熟</text>
+      <text>幽默</text><text>真诚</text>
+    </view>
+    <view class='townList'>
+      服务人数： <text>30人</text>
+    </view>
+    <view class='townList'>
+      熟悉区域： <text class='ellipsis'>金明区金明区金明区金明区</text>
+    </view>
+    <view class='townList'>
+      欢迎咨询： <text class='twonPhone'>15937813595</text>
+    </view>
+  </view>
+</view>

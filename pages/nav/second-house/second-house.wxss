@@ -1,0 +1,110 @@
+/* pages/second-house/second-house.wxss */
+@import "../../../pages/index/index.wxss";
+.selectBox{
+  height: 60rpx;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.selectBox::after{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  content: '';
+  -webkit-transform: scaleY(.5);
+  transform: scaleY(.5);
+  background-color: #dbdbdb;
+}
+.selectBox view{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24rpx;
+  color: #222;
+  position: relative;
+}
+.selectBox view:nth-child(2):before{
+  position: absolute;
+  bottom: 0;
+  top:0;
+  left: 0;
+  width: 1px;
+  content: '';
+  -webkit-transform: scaleX(.5);
+  transform: scaleX(.5);
+  background-color: #dbdbdb;
+}
+.selectBox view:nth-child(2):after{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top:0;
+  width: 1px;
+  content: '';
+  -webkit-transform: scaleX(.5);
+  transform: scaleX(.5);
+  background-color: #dbdbdb;
+}
+.caseSort{
+  font-size:24rpx;
+  color:#666;
+}
+.hanldPrice{
+  color: #fe5705;
+  font-size: 34rpx;
+}
+.hanldPrice text{
+  font-size: 24rpx;
+}
+.selectBox image{
+  width: 19rpx;
+  height: 8rpx; 
+  margin-left: 23rpx;
+}
+.mark{
+  position: fixed;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.6)
+}
+.selectOn{
+  color:#fe5705;
+}
+.selectBody{
+  position: relative
+}
+.selectAddr{
+  position: absolute;
+  z-index: 100;
+  background: #fff;
+}
+.selectAddr text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  height: 60rpx;
+  width: 100%;
+  font-size: 24rpx;
+}
+.selectAddr text:active{
+  color:#fe5705;
+  background: #dbdbdb
+}
+.selectAddr text.active{
+  color:#fe5705;
+  background: #dbdbdb
+}
+.selectBox view.active{
+   color:#fe5705;
+}
+.hide{
+  display: none;
+}
+.show{
+  display: block
+}
